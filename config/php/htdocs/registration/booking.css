@@ -1,0 +1,189 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+  background: #F8F8FF;
+}
+
+.header {
+  width: 50%;
+  margin: 50px auto 0px;
+  color: white;
+  background: #5F9EA0;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+@media only screen and (max-width: 750px) {
+	.header {
+  width: 88%;
+  margin: 50px auto 0px;
+  color: white;
+  background: #5F9EA0;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+ 
+}}
+.name_tag{
+	color:#5F9EA0;
+	font-weight:bold;
+	font-size:20px;
+	margin:5px;
+}
+.name_box{
+	font-size:18px;
+	background:#EEEEEE;
+	margin:10px;
+}
+.default{
+	text-align:center;
+	width:100%;
+	background-color:#EEEEEE;
+	height:60px;
+	padding-top:20px;
+	padding-bottom:0px;
+	border: 1px solid #B0C4DE;
+	margin-top:10px;
+	font-size:25px;
+}
+@media only screen and (max-width: 750px) {
+	.default{
+	text-align:center;
+	width:100%;
+	background-color:#EEEEEE;
+	height:30px;
+	padding-top:20px;
+	
+	border: 1px solid #B0C4DE;
+	margin-top:10px;
+	font-size:18px;
+	
+}}
+.tag_left{
+	width:50%;
+	font-weight:bold;
+	float:left;
+	height:60px;
+}
+@media only screen and (max-width: 750px) {
+.tag_left{
+	width:50%;
+	font-weight:bold;
+	float:left;
+	height:20px;
+}}
+.tag_right{
+	width:50%;
+	font-weight:bold;
+	float:right;
+	height:60px;
+}
+@media only screen and (max-width: 750px) {
+.tag_right{
+	width:50%;
+	font-weight:bold;
+	float:right;
+	height:20px;
+}}
+.hotel_result{
+	
+	text-align:center;
+	width:100%;
+	background-color:#EEEEEE;
+	height:60px;
+	padding-top:10px;
+	border: 1px solid #B0C4DE;
+	font-size:25px;
+	margin-top:0px;
+}
+@media only screen and (max-width: 750px) {
+	.hotel_result{
+	float:left;
+	text-align:justify;
+	width:100%;
+	background-color:#EEEEEE;
+	height:30px;
+	padding-top:18px;
+	border: 1px solid #B0C4DE;
+	font-size:14px;
+	margin-top:0px;
+}}
+.hotel_name{
+	width:50%;
+	text-align:justify;
+	float:left;
+	height:60px;
+	padding-left:20px;
+	
+}
+.hotel_no{
+	width:50%;
+	font-weight:bold;
+	float:right;
+	height:60px;
+}
+form, .content {
+  width: 50%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+  height:700px;
+}
+@media only screen and (max-width: 750px) {
+	form, .content {
+  width: 88%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+  height:450px;
+}}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #5F9EA0;
+  border: none;
+  border-radius: 5px;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
